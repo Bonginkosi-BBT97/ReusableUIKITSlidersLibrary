@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ReusableSlidersLibrary'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ReusableSlidersLibrary.'
+  s.summary          = ' reusable slider component for UIKit that is customizable and supports both numbered and labeled sliders.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -19,6 +19,11 @@ Pod::Spec.new do |s|
 
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
+This pod provides a customizable sliders component for UIKit applications. The sliders component offers two main types: a numbered slider and a labeled slider.
+
+The numbered slider allows users to set a minimum and maximum value, with a counter displayed in the center indicating the current value. This type of slider is ideal for scenarios where precise numerical input is required, such as selecting a value within a specific range.
+
+On the other hand, the labeled slider offers users the flexibility to define custom labels for different positions on the slider. Users can specify labels for the left, middle, and right positions, allowing for intuitive interaction with the slider based on predefined categories or values.
                        DESC
 
   s.homepage         = 'https://github.com/Bonginkosi-BBT/ReusableSlidersLibrary'
@@ -31,10 +36,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '10.0'
   s.source_files = 'Classes/**/*.swift'
   s.swift_version = '5.0'
-  s.platforms = {
-  "ios" : "10.0"
-  }
-
+ 
  # s.source_files = 'ReusableSlidersLibrary/Classes/**/*'
   
   # s.resource_bundles = {
