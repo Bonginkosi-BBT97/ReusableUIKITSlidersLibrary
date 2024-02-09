@@ -13,7 +13,9 @@ The labeled slider offers users the flexibility to define custom labels for diff
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
-![image](https://github.com/Bonginkosi-BBT97/ReusableUIKITSlidersLibrary/assets/64373437/ee8962d9-b4f8-446f-ba12-a0b192c1c2df)
+
+![image](https://github.com/Bonginkosi-BBT97/ReusableUIKITSlidersLibrary/assets/64373437/09ea76ad-6c1c-4316-965c-e02d07ae6274)
+
 
 ## Requirements
 Minimum deployment target is iOS 10.0.
@@ -29,9 +31,9 @@ pod 'ReusableSlidersLibrary'
 ```
 ## Usage
 
-1.After installing the pod, open the .xcworkspace project.
-2.Import the ReusableSliderLibrary 
-3.Open storyboard and add a View where the slider will be placed
+1. After installing the pod, open the .xcworkspace project.
+2. Import the ReusableSliderLibrary 
+3. Open storyboard and add a View where the slider will be placed
 4. With the view selected, go to the identity inspector and add the slider name that will be in that view (Check list of sliders available below)
 5. Go to the view controller and add @IBOutlet weak var of type slider name. (Check example provided below)
 6. connect the @IBOutlet to the view container and define the label properties as shown in the example below
@@ -40,7 +42,7 @@ pod 'ReusableSlidersLibrary'
 
 ## List of Sliders Availabe 
 
-1. NumberedSlider: takes a minimum and maximum value. Has a counter to indicate where the slider is 
+1. NumberedSlider: takes a minimum and maximum value. Has a counter to indicate where the slider is. 
 2. LabeledSlider: takes a left, right and middle labels. (Low,High Medium)
 
 ## Author
