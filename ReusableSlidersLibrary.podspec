@@ -29,8 +29,13 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
+  s.source_files = 'Classes/**/*.swift'
+  s.swift_version = '5.0'
+  s.platforms = {
+  "ios" : "10.0"
+  }
 
-  s.source_files = 'ReusableSlidersLibrary/Classes/**/*'
+ # s.source_files = 'ReusableSlidersLibrary/Classes/**/*'
   
   # s.resource_bundles = {
   #   'ReusableSlidersLibrary' => ['ReusableSlidersLibrary/Assets/*.png']
