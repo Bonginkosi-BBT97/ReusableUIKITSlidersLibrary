@@ -1,0 +1,16 @@
+PODS:
+  - ReusableSlidersLibrary (0.1.0)
+
+DEPENDENCIES:
+  - ReusableSlidersLibrary (from `../`)
+
+EXTERNAL SOURCES:
+  ReusableSlidersLibrary:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ReusableSlidersLibrary: 1a8d3d82862163cd56080107bbe7c335bf5e85ce
+
+PODFILE CHECKSUM: 68ee0049a124bd9987fb4b0a9d71def6e8109fdd
+
+COCOAPODS: 1.12.0

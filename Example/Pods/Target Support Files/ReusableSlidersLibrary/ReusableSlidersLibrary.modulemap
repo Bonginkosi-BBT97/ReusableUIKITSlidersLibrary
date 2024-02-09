@@ -1,0 +1,6 @@
+framework module ReusableSlidersLibrary {
+  umbrella header "ReusableSlidersLibrary-umbrella.h"
+
+  export *
+  module * { export * }
+}
